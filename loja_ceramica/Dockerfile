@@ -1,4 +1,4 @@
-
+# imagem base para o ambiente de testes dasceramica
 FROM python:3.9-slim
 
 

@@ -2,7 +2,7 @@ def calcular_custo_peca(gramas_argila, horas_forno):
     if gramas_argila <= 0:
         return 0
     
-    # QA Inteligente: O forno não pode operar mais de 12h por segurança
+    #  o forno não pode operar mais de 12h por segurança da casa do ceramista
     if horas_forno > 12:
         return "Erro: Limite de horas do forno excedido"
         
