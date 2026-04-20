@@ -7,3 +7,5 @@ def calcular_custo_peca(gramas_argila, horas_forno):
         return "Erro: Limite de horas do forno excedido"
         
     return (gramas_argila * 0.02) + (horas_forno * 4.0)
+
+# versão final com CI/CD
