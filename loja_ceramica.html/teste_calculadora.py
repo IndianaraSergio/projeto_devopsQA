@@ -6,3 +6,4 @@ def teste_valor_correto():
 
 def teste_peso_vazio():
     assert calcular_ocusto_peca(0, 5) == 0
+    # Garantindo que o cálculo de QA está batendo com a regra 
