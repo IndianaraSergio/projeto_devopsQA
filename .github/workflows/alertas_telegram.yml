@@ -12,5 +12,4 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-           
-            ✅ Etapa de CI/CD concluída. Seguimos com o cronograma!
+            🚀 Alerta de QA: Novo código enviado com sucesso por Indianara Sergio!
