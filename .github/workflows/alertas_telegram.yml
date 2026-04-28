@@ -12,14 +12,5 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            📂 **Atualização de Repositório**
-
-            O push para o projeto de QA foi realizado com sucesso. 
-
-            **Detalhes da Versão:**
-            - **Repositório:** ${{ github.repository }}
-            - **Resumo da alteração:** "${{ github.event.head_commit.message }}"
-            - **Enviado por:** ${{ github.actor }}
-
-            ---
+           
             ✅ Etapa de CI/CD concluída. Seguimos com o cronograma!
