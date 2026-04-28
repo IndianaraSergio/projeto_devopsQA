@@ -9,3 +9,4 @@ def calcular_custo_peca(gramas_argila, horas_forno):
     return (gramas_argila * 0.02) + (horas_forno * 4.0)
 
 # versão final com CI/CD
+# teste de integração
