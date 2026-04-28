@@ -22,4 +22,4 @@ jobs:
             - **Enviado por:** ${{ github.actor }}
 
             ---
-            ✅ Etapa de CI/CD concluída. Seguimos com o cronograma! 🚀
+            ✅ Etapa de CI/CD concluída. Seguimos com o cronograma!
